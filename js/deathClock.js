@@ -13,7 +13,7 @@ function today(){
 	} 
 
 	today = mm+'/'+dd+'/'+yyyy;
-	document.write(today);
+	document.write("<br><br> Today is:<br>"+today);
 }
 
 today();
